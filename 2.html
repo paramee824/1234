@@ -212,11 +212,19 @@
 </head>
 <body>
 
-    <!-- Video Background -->
-    <video id="video-background" autoplay muted loop>
-        <source src="D:\Paramee020\vi\2760584-uhd_3840_2160_30fps.mp4">
-        Your browser does not support the video tag.
-    </video>
+  <body>
+    <!-- Background Image -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('b1.pdf'); /* ใส่พาธรูปภาพที่ต้องการใช้ */
+            background-size: cover; /* ปรับขนาดของรูปภาพให้พอดีกับหน้าจอ */
+            background-position: center; /* ตั้งตำแหน่งรูปภาพให้ตรงกลาง */
+            background-repeat: no-repeat; /* ป้องกันไม่ให้รูปภาพทำการซ้ำ */
+        }
+    </style>
 
     <!-- Welcome Overlay -->
     <div id="welcome-overlay">History</div>
